@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+.clearfix{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header{
+  background-color: #fff;
+  position: relative;
+}
+
+.thunder{
+  position: absolute;
+}
+
+.contact_button{
+  background-color: #74cfae;
+  position: absolute;
+}
+
+.contact{
+  color: #fff;
+  font-size: 12px;
+  padding: 14px 12px;
+}
+
+.title{
+  background-color: #f2f2f2;
+  margin: 0 auto;
+  position: relative;
+  padding: 250px;
+  text-align: center;
+}
+
+.maintitle{
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  position: absolute;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.subtitle{
+  color: #c0c0c0;
+  font-size: 30px;
+  position: absolute;
+}
+
+.what_we_can_do{
+  position: relative;
+  float: left;
+}
+
+.iphone{
+  position: absolute;
+  top: 50px;
+}
+
+.what_we_can_do__title{
+  color: #fff;
+  font-size: 24px;
+  position: absolute;
+  padding-bottom: 35px;
+}
+
+.what_we_can_do__text{
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+}
+
+.our_latest_work{
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.our_latest_work__title{
+  color: #333;
+  font-size: 24px;
+  padding: 50% 60px 50% 40px;
+}
+
+.illustration{
+  float: left;
+  padding-left: 100px;
+}
+
+.illustration:nth-child(3n+1){
+  clear: left;
+  padding-left: 0px;
+}
+
+.our_latest_work__text{
+  color: #333;
+  margin: 0 auto;
+}
+
+.email_me__button{
+  background-color: #74cfae;
+  position: relative;
+}
+
+.email_me{
+  clear: #fff;
+  font-size: 12px;
+  position: absolute;
+  padding: 14px 20px;
+}
+
+.our_skills{
+  background-color: #4e4e4e;
+  position: relative;
+}
+
+.our_skills__title{
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+.circle{
+  float: left;
+  padding-left: 180px;
+}
+
+.circle:first-child{
+  padding-left: 0px;
+}
+
+.circle_text{
+  float: left;
+  font-size: 16px;
+  padding-bottom: 100px;
+}
+
+.sns_rinks{
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.sns{
+  padding: 200px;
+  position: absolute;
+  width: 185px;
+}
+
+.footer{
+  background-color: #74cfae;
+  position: relative;
+}
+
+.footer_text{
+  color: #fff;
+  position: absolute;
+  padding-top: 20px;
+  padding-bottom: 25px;
+}
+
