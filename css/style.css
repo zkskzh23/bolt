@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+.wrapper{}
+
 .clearfix{
   content: "";
   display: block;
@@ -8,10 +10,17 @@
 
 .header{
   background-color: #fff;
+  height: 70px;
   position: relative;
 }
 
-.thunder{
+.header_inner{
+  display: flex;
+  padding: 15px;
+  position: absolute;
+}
+
+.bolt{
   position: absolute;
 }
 
@@ -28,10 +37,8 @@
 
 .title{
   background-color: #f2f2f2;
-  margin: 0 auto;
+  height: 640px;
   position: relative;
-  padding: 250px;
-  text-align: center;
 }
 
 .maintitle{
@@ -39,30 +46,37 @@
   font-size: 90px;
   font-weight: 700;
   position: absolute;
-  padding-bottom: 20px;
-  text-align: center;
+  top: 250px;
+  left: 33%;
 }
 
 .subtitle{
   color: #c0c0c0;
   font-size: 30px;
   position: absolute;
+  bottom: 250px;
+  left: 38%;
 }
 
 .what_we_can_do{
+  background-color: #74cfae;
+  display: flex;
+  height: 345px;
   position: relative;
-  float: left;
 }
 
 .iphone{
   position: absolute;
   top: 50px;
+  left: 20%;
 }
 
 .what_we_can_do__title{
   color: #fff;
   font-size: 24px;
   position: absolute;
+  top: 133px;
+  right: 28%;
   padding-bottom: 35px;
 }
 
@@ -70,21 +84,29 @@
   color: #fff;
   font-size: 20px;
   position: absolute;
+  top: 192px;
+  right: 10%;
+  text-align: center;
 }
 
 .our_latest_work{
   background-color: #f2f2f2;
+  height: 984px;
   position: relative;
 }
 
 .our_latest_work__title{
   color: #333;
   font-size: 24px;
-  padding: 50% 60px 50% 40px;
+  position: absolute;
+  top: 60px;
+  left: 50%;
 }
 
 .illustration{
   float: left;
+  position: absolute;
+  top: 124px;
   padding-left: 100px;
 }
 
@@ -96,33 +118,45 @@
 .our_latest_work__text{
   color: #333;
   margin: 0 auto;
+  position: absolute;
+  bottom: 70px;
+  text-align: center;
 }
 
 .email_me__button{
   background-color: #74cfae;
-  position: relative;
+  position: absolute;
+  top: 894px;
 }
 
 .email_me{
-  clear: #fff;
+  color: #fff;
   font-size: 12px;
-  position: absolute;
   padding: 14px 20px;
 }
 
 .our_skills{
   background-color: #4e4e4e;
+  height: 372px;
   position: relative;
 }
 
 .our_skills__title{
   color: #fff;
   margin: 0 auto;
-  padding-top: 70px;
+  position: absolute;
+  top: 70px;
+  left: 50%;
+}
+
+.circles{
+  display: flex;
+  position: absolute;
+  bottom: 130px;
+  left: 15%;
 }
 
 .circle{
-  float: left;
   padding-left: 180px;
 }
 
@@ -130,32 +164,51 @@
   padding-left: 0px;
 }
 
-.circle_text{
-  float: left;
+.circle_texts{
+  color: #fff;
+  display: flex;
   font-size: 16px;
-  padding-bottom: 100px;
+  position: absolute;
+  bottom: 100px;
+  left: 16.5%;
+}
+
+.circle_text{
+  padding-left: 220px;
+}
+
+.circle_text:first-child{
+  padding-left: 0px;
 }
 
 .sns_rinks{
   background-color: #f2f2f2;
+  display: flex;
+  height: 500px;
   position: relative;
 }
 
-.sns{
-  padding: 200px;
+.sns_button{
   position: absolute;
+  top: 200px;
+  width: 185px;
+}
+
+.sns{
   width: 185px;
 }
 
 .footer{
   background-color: #74cfae;
+  height: 55px;
   position: relative;
 }
 
 .footer_text{
   color: #fff;
   position: absolute;
-  padding-top: 20px;
-  padding-bottom: 25px;
+  top: 20px;
+  right: 20%;
+  bottom: 25px;
 }
 
