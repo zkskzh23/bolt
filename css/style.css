@@ -195,11 +195,16 @@ dt{
   background-color: #f2f2f2;
   border: none;
   color: #74cfae;
+  cursor: pointer;
+  display: flex;
   float: left;
   height: 100px;
-  position: absolute;
-  top: 200px;
+  margin-top: 200px;
   width: 185px;
+}
+
+.sns_button:first-child{
+  margin-left: 400px;
 }
 
 .sns_button:hover{
@@ -207,7 +212,9 @@ dt{
 }
 
 .sns{
-  position: absolute;
+  font-size: 3em;
+  margin: 0 auto;
+  padding: 25px;
 }
 
 .footer{
