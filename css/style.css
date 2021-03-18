@@ -118,11 +118,15 @@
   padding-bottom: 80px;
 }
 
+.picture:nth-child(3n+1){
+  padding-left: 125px;
+}
+
 .our_latest_work__text{
   color: #333;
   margin: 0 auto;
   position: absolute;
-  left: 300px;
+  left: 380px;
   bottom: 70px;
   text-align: center;
 }
@@ -130,7 +134,7 @@
 .email_me__button{
   background-color: #74cfae;
   position: absolute;
-  left: 911px;
+  left: 1100px;
   top: 870px;
 }
 
@@ -142,22 +146,22 @@
 
 .our_skills{
   background-color: #4e4e4e;
-  height: 372px;
+  height: 400px;
   position: relative;
 }
 
 .our_skills__title{
   color: #fff;
-  margin: 0 auto;
+  font-size: 24px;
   position: absolute;
   top: 70px;
-  left: 50%;
+  left: 680px;
 }
 
 .circles{
   display: flex;
   position: absolute;
-  bottom: 130px;
+  bottom: 100px;
   left: 15%;
 }
 
@@ -169,21 +173,16 @@
   padding-left: 0px;
 }
 
-.circle_texts{
+dl{
+  display: flex;
+  justify-content: center;
+}
+
+dt{
   color: #fff;
   display: flex;
   font-size: 16px;
-  position: absolute;
-  bottom: 100px;
-  left: 16.5%;
-}
-
-.circle_text{
-  padding-left: 220px;
-}
-
-.circle_text:first-child{
-  padding-left: 0px;
+  padding: 10px;
 }
 
 .sns_rinks{
@@ -192,14 +191,23 @@
   position: relative;
 }
 
-.sns_button{
-  display: flex;
+.sns_button {
+  background-color: #f2f2f2;
+  border: none;
+  color: #74cfae;
+  float: left;
+  height: 100px;
   position: absolute;
   top: 200px;
+  width: 185px;
+}
+
+.sns_button:hover{
+  background-color: #fff;
 }
 
 .sns{
-  font-size: 2.5em;
+  position: absolute;
 }
 
 .footer{
