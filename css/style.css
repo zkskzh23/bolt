@@ -33,6 +33,7 @@
 
 .contact{
   color: #fff;
+  font-family: Lato;
   font-size: 12px;
   padding: 14px 12px;
 }
@@ -50,19 +51,21 @@
 
 .maintitle{
   color: #74cfae;
+  font-family: Raleway;
   font-size: 90px;
   font-weight: 700;
   position: absolute;
   top: 250px;
-  left: 33%;
+  left: 35%;
 }
 
 .subtitle{
   color: #c0c0c0;
+  font-family: Raleway;
   font-size: 30px;
   position: absolute;
   bottom: 250px;
-  left: 38%;
+  left: 39%;
 }
 
 .what_we_can_do{
@@ -80,15 +83,17 @@
 
 .what_we_can_do__title{
   color: #fff;
+  font-family: Raleway;
   font-size: 24px;
   position: absolute;
   top: 133px;
-  right: 28%;
+  right: 24%;
   padding-bottom: 35px;
 }
 
 .what_we_can_do__text{
   color: #fff;
+  font-family: Lato;
   font-size: 20px;
   position: absolute;
   top: 192px;
@@ -104,6 +109,7 @@
 
 .our_latest_work__title{
   color: #333;
+  font-family: Raleway;
   font-size: 24px;
   position: absolute;
   top: 60px;
@@ -120,8 +126,8 @@
 
 .picture{
   opacity: 0.7;
-  padding-left: 100px;
-  padding-bottom: 80px;
+  margin-left: 100px;
+  margin-bottom: 80px;
 }
 
 .picture:hover{
@@ -130,11 +136,12 @@
 }
 
 .picture:nth-child(3n+1){
-  padding-left: 125px;
+  margin-left: 125px;
 }
 
 .our_latest_work__text{
   color: #333;
+  font-family: Lato;
   margin: 0 auto;
   position: absolute;
   left: 380px;
@@ -151,6 +158,7 @@
 
 .email_me{
   color: #fff;
+  font-family: Lato;
   font-size: 12px;
   padding: 14px 20px;
 }
@@ -168,6 +176,7 @@
 
 .our_skills__title{
   color: #fff;
+  font-family: Raleway;
   font-size: 24px;
   position: absolute;
   top: 70px;
@@ -197,6 +206,7 @@ dl{
 dt{
   color: #fff;
   display: flex;
+  font-family: Lato;
   font-size: 16px;
   padding: 10px;
 }
@@ -210,7 +220,6 @@ dt{
 .sns_button {
   background-color: #f2f2f2;
   border: none;
-  color: #74cfae;
   cursor: pointer;
   display: flex;
   float: left;
@@ -229,6 +238,7 @@ dt{
 }
 
 .sns{
+  color: #74cfae;
   font-size: 3em;
   margin: 0 auto;
   padding: 25px;
@@ -242,6 +252,7 @@ dt{
 
 .footer_text{
   color: #fff;
+  font-family: Lato;
   position: absolute;
   top: 20px;
   right: 20%;
