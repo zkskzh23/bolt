@@ -16,24 +16,24 @@
 
 .inner{
   margin: 0 auto;
+  width: 1100px;
 }
 
 .header_inner{
+  display: flex;
   padding: 15px;
-  position: relative;
 }
-
 
 .bolt{
   font-size: 2.5em;
-  position: absolute;
-  left: 200px;
+  width: 25px;
 }
 
 .contact_button{
   background-color: #74cfae;
-  position: absolute;
-  right: 200px;
+  text-align: center;
+  margin: 0 0 0 auto;
+  width: 84px;
 }
 
 .contact{
@@ -48,10 +48,14 @@
   transition: 0.3s;
 }
 
+.main{
+  padding-top: 70px;
+}
+
 .title{
   background-color: #f2f2f2;
   height: 640px;
-  position: relative;
+  margin: 0 auto;
 }
 
 .maintitle{
@@ -59,74 +63,66 @@
   font-family: Raleway;
   font-size: 90px;
   font-weight: 700;
-  position: absolute;
-  top: 250px;
-  left: 35%;
+  padding-top: 250px;
+  text-align: center;
 }
 
 .subtitle{
   color: #c0c0c0;
   font-family: Raleway;
   font-size: 30px;
-  position: absolute;
-  bottom: 250px;
-  left: 39%;
+  padding-bottom: 250px;
+  text-align: center;
 }
 
 .what_we_can_do{
   background-color: #74cfae;
-  display: flex;
   height: 345px;
-  position: relative;
+}
+
+.what_we_can_do__inner{
+  display: flex;
 }
 
 .iphone{
-  position: absolute;
-  top: 50px;
-  left: 20%;
+  padding-top: 50px;
+}
+
+
+.what_we_can_do__text{
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  margin: 0 0 0 auto;
+  text-align: center;
 }
 
 .what_we_can_do__title{
   color: #fff;
   font-family: Raleway;
   font-size: 24px;
-  position: absolute;
-  top: 133px;
-  right: 24%;
   padding-bottom: 35px;
-}
-
-.what_we_can_do__text{
-  color: #fff;
-  font-family: Lato;
-  font-size: 20px;
-  position: absolute;
-  top: 192px;
-  right: 10%;
+  padding-top: 100px;
   text-align: center;
 }
 
 .our_latest_work{
   background-color: #f2f2f2;
-  height: 984px;
-  position: relative;
+  height: 1017px;
 }
 
 .our_latest_work__title{
   color: #333;
   font-family: Raleway;
   font-size: 24px;
-  position: absolute;
-  top: 60px;
-  left: 650px;
+  padding-bottom: 40px;
+  padding-top: 60px;
+  text-align: center;
 }
 
 .our_latest_work__picture{
   display: flex;
   flex-wrap: wrap;
-  position: absolute;
-  top: 124px;
-  left: 100px;
 }
 
 .picture{
@@ -135,35 +131,39 @@
   margin-bottom: 80px;
 }
 
+.picture:nth-child(3n+1){
+  margin-left: 0;
+}
+
 .picture:hover{
   opacity: 1;
   transition: 0.3s;
 }
 
-.picture:nth-child(3n+1){
-  margin-left: 125px;
+.our_latest_work__text_n_button{
+  display: flex;
+  font-family: Lato;
+  justify-content: center;
+  padding-bottom: 70px;
+  padding-top: 10px;
 }
 
 .our_latest_work__text{
   color: #333;
-  font-family: Lato;
-  margin: 0 auto;
-  position: absolute;
-  left: 380px;
-  bottom: 70px;
+  padding-right: 90px;
   text-align: center;
+  width: 500px;
 }
 
 .email_me__button{
   background-color: #74cfae;
-  position: absolute;
-  left: 1100px;
-  top: 870px;
+  height: 40px;
+  text-align: center;
+  width: 108px;
 }
 
 .email_me{
   color: #fff;
-  font-family: Lato;
   font-size: 12px;
   padding: 14px 20px;
 }
@@ -176,23 +176,21 @@
 .our_skills{
   background-color: #4e4e4e;
   height: 400px;
-  position: relative;
 }
 
 .our_skills__title{
   color: #fff;
   font-family: Raleway;
   font-size: 24px;
-  position: absolute;
-  top: 70px;
-  left: 680px;
+  padding-bottom: 45px;
+  padding-top: 70px;
+  text-align: center;
 }
 
 .circles{
   display: flex;
-  position: absolute;
-  bottom: 100px;
-  left: 15%;
+  justify-content: center;
+  padding-bottom: 100px;
 }
 
 .circle{
@@ -219,22 +217,22 @@ dt{
 .sns_rinks{
   background-color: #f2f2f2;
   height: 500px;
-  position: relative;
 }
 
-.sns_button {
+.sns_buttons{
+  margin: 0 auto;
+}
+
+.sns_button{
   background-color: #f2f2f2;
   border: none;
   cursor: pointer;
-  display: flex;
+  display: block;
   float: left;
   height: 100px;
   margin-top: 200px;
+  text-align: center;
   width: 185px;
-}
-
-.sns_button:first-child{
-  margin-left: 400px;
 }
 
 .sns_button:hover{
@@ -244,6 +242,7 @@ dt{
 
 .sns{
   color: #74cfae;
+  display: block;
   font-size: 3em;
   margin: 0 auto;
   padding: 25px;
@@ -252,15 +251,14 @@ dt{
 .footer{
   background-color: #74cfae;
   height: 55px;
-  position: relative;
 }
 
 .footer_text{
   color: #fff;
   font-family: Lato;
-  position: absolute;
-  top: 20px;
-  right: 20%;
-  bottom: 25px;
+  margin: 0 0 0 auto;
+  padding: 20px 0 25px 0;
+  text-align: center;
+  width: 300px;
 }
 
