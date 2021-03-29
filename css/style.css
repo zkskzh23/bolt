@@ -54,8 +54,8 @@
 
 .title{
   background-color: #f2f2f2;
-  height: 640px;
   margin: 0 auto;
+  padding: 250px 0 250px;
 }
 
 .maintitle{
@@ -63,7 +63,6 @@
   font-family: Raleway;
   font-size: 90px;
   font-weight: 700;
-  padding-top: 250px;
   text-align: center;
 }
 
@@ -71,13 +70,11 @@
   color: #c0c0c0;
   font-family: Raleway;
   font-size: 30px;
-  padding-bottom: 250px;
   text-align: center;
 }
 
 .what_we_can_do{
   background-color: #74cfae;
-  height: 345px;
 }
 
 .what_we_can_do__inner{
@@ -85,7 +82,7 @@
 }
 
 .iphone{
-  padding-top: 50px;
+  margin-top: 50px;
 }
 
 
@@ -101,22 +98,21 @@
   color: #fff;
   font-family: Raleway;
   font-size: 24px;
-  padding-bottom: 35px;
-  padding-top: 100px;
+  margin-bottom: 35px;
+  margin-top: 100px;
   text-align: center;
 }
 
 .our_latest_work{
   background-color: #f2f2f2;
-  height: 1017px;
+  padding: 60px 0 70px;
 }
 
 .our_latest_work__title{
   color: #333;
   font-family: Raleway;
   font-size: 24px;
-  padding-bottom: 40px;
-  padding-top: 60px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -144,13 +140,12 @@
   display: flex;
   font-family: Lato;
   justify-content: center;
-  padding-bottom: 70px;
-  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .our_latest_work__text{
   color: #333;
-  padding-right: 90px;
+  margin-right: 90px;
   text-align: center;
   width: 500px;
 }
@@ -175,30 +170,28 @@
 
 .our_skills{
   background-color: #4e4e4e;
-  height: 400px;
+  padding: 70px 0 100px;
 }
 
 .our_skills__title{
   color: #fff;
   font-family: Raleway;
   font-size: 24px;
-  padding-bottom: 45px;
-  padding-top: 70px;
+  margin-bottom: 45px;
   text-align: center;
 }
 
 .circles{
   display: flex;
   justify-content: center;
-  padding-bottom: 100px;
 }
 
 .circle{
-  padding-left: 180px;
+  margin-left: 180px;
 }
 
 .circle:first-child{
-  padding-left: 0px;
+  margin-left: 0px;
 }
 
 dl{
@@ -216,7 +209,7 @@ dt{
 
 .sns_rinks{
   background-color: #f2f2f2;
-  height: 500px;
+  padding: 200px 0;
 }
 
 .sns_buttons{
@@ -224,41 +217,29 @@ dt{
 }
 
 .sns_button{
-  background-color: #f2f2f2;
-  border: none;
-  cursor: pointer;
-  display: block;
-  float: left;
-  height: 100px;
-  margin-top: 200px;
-  text-align: center;
+  padding: 20px;
+  transition: 0.3s;
   width: 185px;
 }
 
 .sns_button:hover{
   background-color: #fff;
-  transition: 0.3s;
 }
 
 .sns{
   color: #74cfae;
-  display: block;
   font-size: 3em;
-  margin: 0 auto;
-  padding: 25px;
 }
 
 .footer{
   background-color: #74cfae;
-  height: 55px;
+  padding: 20px 0 25px 0;
 }
 
 .footer_text{
   color: #fff;
   font-family: Lato;
   margin: 0 0 0 auto;
-  padding: 20px 0 25px 0;
-  text-align: center;
   width: 300px;
 }
 
