@@ -213,13 +213,16 @@ dt{
 }
 
 .sns_buttons{
+  display: table;
+  margin: auto;
   text-align: center;
 }
 
 .sns_button{
+  display: table-cell;
   padding: 20px;
   transition: 0.3s;
-  width: 185px;
+  width: 145px;
 }
 
 .sns_button:hover{
