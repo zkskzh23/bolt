@@ -220,11 +220,8 @@ body{
 }
 
 .sns_button{
-  cursor: pointer;
   display: table-cell;
-  padding: 20px;
   transition: 0.3s;
-  width: 145px;
 }
 
 .sns_button:hover{
@@ -233,7 +230,10 @@ body{
 
 .sns{
   color: #74cfae;
+  display: inline-block;
   font-size: 3em;
+  padding: 20px 0;
+  width: 185px;
 }
 
 .footer{
