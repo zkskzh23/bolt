@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body{
+  font-family: Lato;
+}
+
 .clearfix{
   content: "";
   display: block;
@@ -8,10 +12,10 @@
 
 .header{
   background-color: #fff;
-  height: 70px;
+  padding: 15px 0;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 10000;
 }
 
 .inner{
@@ -21,7 +25,6 @@
 
 .header_inner{
   display: flex;
-  padding: 15px;
 }
 
 .bolt{
@@ -32,13 +35,13 @@
 .contact_button{
   background-color: #74cfae;
   text-align: center;
-  margin: 0 0 0 auto;
+  text-decoration: none;
+  margin-left:auto;
   width: 84px;
 }
 
 .contact{
   color: #fff;
-  font-family: Lato;
   font-size: 12px;
   padding: 14px 12px;
   transition: 0.3s;
@@ -75,22 +78,17 @@
 
 .what_we_can_do{
   background-color: #74cfae;
+  padding-top: 50px;
 }
 
 .what_we_can_do__inner{
   display: flex;
 }
 
-.iphone{
-  margin-top: 50px;
-}
-
-
-.what_we_can_do__text{
+.what_we_can_do__title_n_text{
   color: #fff;
-  font-family: Lato;
   font-size: 20px;
-  margin: 0 0 0 auto;
+  margin-left: auto;
   text-align: center;
 }
 
@@ -98,9 +96,12 @@
   color: #fff;
   font-family: Raleway;
   font-size: 24px;
-  margin-bottom: 35px;
-  margin-top: 100px;
+  margin-top: 60px;
   text-align: center;
+}
+
+.what_we_can_do__text{
+  margin-top: 35px;
 }
 
 .our_latest_work{
@@ -112,7 +113,6 @@
   color: #333;
   font-family: Raleway;
   font-size: 24px;
-  margin-bottom: 40px;
   text-align: center;
 }
 
@@ -123,11 +123,15 @@
 
 .pictures{
   margin-left: 100px;
-  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .pictures:nth-child(3n+1){
   margin-left: 0;
+}
+
+.pictures:nth-child(-n+3){
+  margin-top: 40px;
 }
 
 .picture{
@@ -141,9 +145,8 @@
 
 .our_latest_work__text_n_button{
   display: flex;
-  font-family: Lato;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 90px;
 }
 
 .our_latest_work__text{
@@ -157,6 +160,7 @@
   background-color: #74cfae;
   height: 40px;
   text-align: center;
+  text-decoration: none;
   width: 108px;
 }
 
@@ -180,13 +184,13 @@
   color: #fff;
   font-family: Raleway;
   font-size: 24px;
-  margin-bottom: 45px;
   text-align: center;
 }
 
 .our_skills__circles{
   display: flex;
   justify-content: center;
+  margin-top: 45px;
 }
 
 .circles{
@@ -199,7 +203,6 @@
 
 .circle_text{
   color: #fff;
-  font-family: Lato;
   font-size: 16px;
   margin-top: 10px;
   text-align: center;
@@ -217,6 +220,7 @@
 }
 
 .sns_button{
+  cursor: pointer;
   display: table-cell;
   padding: 20px;
   transition: 0.3s;
@@ -239,8 +243,6 @@
 
 .footer_text{
   color: #fff;
-  font-family: Lato;
-  margin: 0 0 0 auto;
-  width: 300px;
+  text-align: right;
 }
 
