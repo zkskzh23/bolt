@@ -18,6 +18,8 @@ body{
   background-color: #fff;
   padding: 15px 0;
   position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
   z-index: 10000;
 }
@@ -41,7 +43,6 @@ body{
   text-align: center;
   text-decoration: none;
   margin-left:auto;
-  width: 84px;
 }
 
 .contact{
@@ -103,6 +104,8 @@ body{
 
 .what_we_can_do__text{
   margin-top: 35px;
+  text-align: center;
+  width: 650px;
 }
 
 .our_latest_work{
@@ -163,7 +166,6 @@ body{
   margin-left: 90px;
   text-align: center;
   text-decoration: none;
-  width: 108px;
 }
 
 .email_me{
