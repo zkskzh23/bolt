@@ -31,6 +31,7 @@ body{
 
 .header_inner{
   display: flex;
+  justify-content: space-between;
 }
 
 .bolt{
@@ -42,7 +43,6 @@ body{
   background-color: #74cfae;
   text-align: center;
   text-decoration: none;
-  margin-left:auto;
 }
 
 .contact{
@@ -76,6 +76,7 @@ body{
 .subtitle{
   color: #c0c0c0;
   font-size: 30px;
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -248,3 +249,63 @@ body{
   text-align: right;
 }
 
+@media screen and (min-width: 1200px) {
+  .sp {display: none !important;}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) { 
+  .inner {width: 97%;}
+  .title {padding: 50px 0 25px;}
+}
+
+@media screen and (max-width: 767px) {
+  .inner {width: 97%;}
+  .iphone {margin: 0 auto;}
+  .maintitle {font-size: 80px;}
+  .pc {display: none !important;}
+  .pictures {margin: 0 auto;}
+  .sp {display: block !important;}
+  .subtitle {font-size: 30px;}
+  .what_we_can_do__inner {display: block;}
+  .what_we_can_do__text {text-align: center;}
+  .title {padding: 160px 0 130px;}
+}
+
+.drawer-hidden {
+  display: none;
+}
+
+.drawer-open {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  display: flex;
+  height: 20px;
+  width: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.drawer-open span,
+.drawer-open span:before,
+.drawer-open span:after {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 25px;
+  border-radius: 3px;
+  background: #ddd;
+  transition: 0.5s;
+  position: absolute;
+}
+
+.drawer-open span:before {
+  bottom: 8px;
+}
+
+.drawer-open span:after {
+  top: 8px;
+}
