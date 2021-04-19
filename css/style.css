@@ -259,9 +259,13 @@ body{
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .circles {
+  .circles{
     margin-top: 88px;
     margin-left: 0;
+  }
+
+  .circles:first-child{
+    margin-top: 45px;
   }
 
   .email_me__button{
@@ -289,11 +293,11 @@ body{
   
   .our_latest_work__text_n_button{
     display: block;
+    margin-top: 80px;
   }
   
   .our_latest_work__text {
-    width: 97%;
-    margin-top: 80px;
+    width: 100%;
   }
   
   .our_skills__circles {
@@ -306,7 +310,7 @@ body{
     margin-top: 0;
   }
   
-  .pictures:nth-child(4){
+  .pictures:nth-child(4n){
     margin-top: 80px;
   }
   
@@ -326,21 +330,28 @@ body{
     display: block;
   }
   
-  .what_we_can_do__title{
+  .what_we_can_do__title_n_text{
     margin-top: 20px;
+  }
+
+  .what_we_can_do__title{
+    margin-top: 0;
   }
   
   .what_we_can_do__text {
-    width: 97%;
     margin: 0 auto;
     margin-top: 35px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .circles {
+  .circles{
     margin-top: 88px;
     margin-left: 0;
+  }
+  
+  .circles:first-child{
+    margin-top: 45px;
   }
   
   .email_me__button{
@@ -368,10 +379,11 @@ body{
   
   .our_latest_work__text_n_button{
     display: block;
+    margin-top: 80px;
   }
-  
-  .our_latest_work__text {
-    width: 97%;
+
+  .our_latest_work__text{
+    width: 100%;
   }
   
   .our_skills__circles {
@@ -388,20 +400,16 @@ body{
     margin: 0 auto;
   }
   
-  .pictures:nth-child(4){
+  .pictures:nth-child(4n){
     margin-top: 80px;
   }
   
-  .sns{
-    width: 97%;
-  }
-  
   .sns_buttons {
-    display: block;
+    display: inline-block;
   }
   
   .sns_rinks{
-    padding: 50px 15px;
+    padding: 50px 0;
   }
   
   .sp {
@@ -412,6 +420,10 @@ body{
     font-size: 30px;
   }
   
+  .title {
+    padding: 160px 0 130px;
+  }
+  
   .what_we_can_do{
     padding: 50px 0 25px;
   }
@@ -420,16 +432,18 @@ body{
     display: block;
   }
   
-  .what_we_can_do__title{
+  .what_we_can_do__title_n_text{
     margin-top: 20px;
+  }
+
+  .what_we_can_do__title{
+    margin-top: 0;
   }
   
   .what_we_can_do__text {
-    width: 97%; margin-top: 35px;
-  }
-  
-  .title {
-    padding: 160px 0 130px;
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 100%;
   }
 }
 
