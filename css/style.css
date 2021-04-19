@@ -265,7 +265,7 @@ body{
   }
 
   .circles:first-child{
-    margin-top: 45px;
+    margin-top: 0px;
   }
 
   .email_me__button{
@@ -303,6 +303,7 @@ body{
   .our_skills__circles {
     display: block;
     margin: 0 auto;
+    margin-top: 45px;
   }
   
   .pictures {
@@ -310,7 +311,7 @@ body{
     margin-top: 0;
   }
   
-  .pictures:nth-child(4n){
+  .pictures:nth-child(3n+1){
     margin-top: 80px;
   }
   
@@ -351,7 +352,7 @@ body{
   }
   
   .circles:first-child{
-    margin-top: 45px;
+    margin-top: 0px;
   }
   
   .email_me__button{
@@ -389,6 +390,7 @@ body{
   .our_skills__circles {
     display: block;
     margin: 0 auto;
+    margin-top: 45px;
   }
   
   .pc {
@@ -400,12 +402,17 @@ body{
     margin: 0 auto;
   }
   
-  .pictures:nth-child(4n){
+  .pictures:nth-child(3n+1){
     margin-top: 80px;
   }
   
+  .sns{
+    width: 100%;
+  }
+
   .sns_buttons {
     display: inline-block;
+    width: 100%;
   }
   
   .sns_rinks{
