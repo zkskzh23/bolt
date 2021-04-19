@@ -245,53 +245,192 @@ body{
 }
 
 @media screen and (min-width: 1200px) {
-  .sp {display: none !important;}
-  .our_latest_work__picture{display: flex;}
-  .pictures:nth-child(3n+1){margin-left: 0;}
+  .sp{
+    display: none !important;
+  }
+
+  .our_latest_work__picture{
+    display: flex;
+  }
+
+  .pictures:nth-child(3n+1){
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .circles {margin-top: 88px; margin-left: 0;}
-  .email_me__button{display: inline-block; margin-left: 0px; margin-top: 40px;}
-  .email_me{margin: 0 auto;}
-  .inner {width: 97%; text-align: center;}
-  .iphone {margin: 0 auto;}
-  .our_latest_work__picture {display:block;}
-  .our_latest_work__text_n_button{display: block;}
-  .our_latest_work__text {width: 97%; margin-top: 80px;}
-  .our_skills__circles {display: block; margin: 0 auto;}
-  .pictures {margin-left: 0; margin-top: 0;}
-  .pictures:nth-child(4){margin-top: 80px;}
-  .picture{text-align: center;}
-  .sp {display: none !important;}
-  .what_we_can_do{padding: 50px 0 25px;}
-  .what_we_can_do__inner {display: block;}
-  .what_we_can_do__title{margin-top: 20px;}
-  .what_we_can_do__text {width: 97%; margin: 0 auto; margin-top: 35px;}
+  .circles {
+    margin-top: 88px;
+    margin-left: 0;
+  }
+
+  .email_me__button{
+    display: inline-block;
+    margin-left: 0px; margin-top: 40px;
+  }
+
+  .email_me{
+    margin: 0 auto;
+  }
+
+  .inner {
+    width: 97%;
+    text-align: center;
+  }
+
+  .iphone {
+    margin: 0 auto;
+  }
+
+  .our_latest_work__picture {
+    display:block;
+    font-size: 0;
+  }
+  
+  .our_latest_work__text_n_button{
+    display: block;
+  }
+  
+  .our_latest_work__text {
+    width: 97%;
+    margin-top: 80px;
+  }
+  
+  .our_skills__circles {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .pictures {
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+  .pictures:nth-child(4){
+    margin-top: 80px;
+  }
+  
+  .picture{
+    text-align: center;
+  }
+  
+  .sp {
+    display: none !important;
+  }
+  
+  .what_we_can_do{
+    padding: 50px 0 25px;
+  }
+  
+  .what_we_can_do__inner {
+    display: block;
+  }
+  
+  .what_we_can_do__title{
+    margin-top: 20px;
+  }
+  
+  .what_we_can_do__text {
+    width: 97%;
+    margin: 0 auto;
+    margin-top: 35px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .circles {margin-top: 88px; margin-left: 0;}
-  .email_me__button{display: inline-block; margin-left: 0px; margin-top: 40px;}
-  .inner {width: 97%; text-align: center;}
-  .iphone {margin: 0 auto;}
-  .maintitle {font-size: 80px;}
-  .our_latest_work__text_n_button{display: block;}
-  .our_latest_work__text {width: 97%;}
-  .our_skills__circles {display: block; margin: 0 auto;}
-  .pc {display: none !important;}
-  .pictures {margin-left: 0; margin: 0 auto;}
-  .pictures:nth-child(4){margin-top: 80px;}
-  .sns{width: 97%;}
-  .sns_buttons {display: block;}
-  .sns_rinks{padding: 50px 15px;}
-  .sp {display: block !important;}
-  .subtitle {font-size: 30px;}
-  .what_we_can_do{padding: 50px 0 25px;}
-  .what_we_can_do__inner {display: block;}
-  .what_we_can_do__title{margin-top: 20px;}
-  .what_we_can_do__text {width: 97%; margin-top: 35px;}
-  .title {padding: 160px 0 130px;}
+  .circles {
+    margin-top: 88px;
+    margin-left: 0;
+  }
+  
+  .email_me__button{
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  
+  .inner {
+    width: 97%;
+    text-align: center;
+  }
+  
+  .iphone {
+    margin: 0 auto;
+  }
+  
+  .maintitle {
+    font-size: 80px;
+  }
+
+  .our_latest_work__picture {
+    font-size: 0;
+  }
+  
+  .our_latest_work__text_n_button{
+    display: block;
+  }
+  
+  .our_latest_work__text {
+    width: 97%;
+  }
+  
+  .our_skills__circles {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .pc {
+    display: none !important;
+  }
+  
+  .pictures {
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  
+  .pictures:nth-child(4){
+    margin-top: 80px;
+  }
+  
+  .sns{
+    width: 97%;
+  }
+  
+  .sns_buttons {
+    display: block;
+  }
+  
+  .sns_rinks{
+    padding: 50px 15px;
+  }
+  
+  .sp {
+    display: block !important;
+  }
+  
+  .subtitle {
+    font-size: 30px;
+  }
+  
+  .what_we_can_do{
+    padding: 50px 0 25px;
+  }
+  
+  .what_we_can_do__inner {
+    display: block;
+  }
+  
+  .what_we_can_do__title{
+    margin-top: 20px;
+  }
+  
+  .what_we_can_do__text {
+    width: 97%; margin-top: 35px;
+  }
+  
+  .title {
+    padding: 160px 0 130px;
+  }
 }
 
 .drawer-hidden {
